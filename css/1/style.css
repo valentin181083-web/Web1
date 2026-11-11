@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    
+    text-transform: capitalize;
+    font-weight: bold; 
+}
+html,body {
+  height: 100%;
+
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+}
+header{
+    height:120px; 
+       margin: 50px;
+       width:1500px;
+}
+main{
+    margin:0 auto;
+    padding-bottom: 100px;
+    width:1500px;
+}
+footer{  
+    width:1040px;
+    margin: 0px auto ;
+    position: relative;
+    height: 100px;
+    padding-top: 90px;
+}
+
+body{
+    background-color: #380577;
+    color: white;
+    font-family: 'Oswald','Verdana', 'Arial', 'Helvetica', sans-serif;
+ ;
+}
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+.main_img-float{ 
+    width:550px;
+    margin-right:40px ;
+    float:left; 
+}
+
+.services__item {
+    width:240px;
+    float:left;
+    margin-left:40px ;
+    margin-right:40px ;
+    padding: 50px;
+   border: 4px;
+
+
+    
+   
+    
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.services__img{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+     
+   
+    
+}
+.h1--invisible{
+    visibility: hidden;
+
+}
+.fans{
+    display: inline-block;
+  margin-right: 10px;
+}
+    .ter{
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    }
+     .wer{
+        text-align: center;
+
+     }
+    .stac{
+       float:left; 
+       width: 90px;
+        float: right;
+        margin-left: 10px;
+    }
+
+.ret{
+      float:left;
+       display: block;
+    margin: 0px auto;
+     
+}
+.ert{
+   text-align: center;
+      letter-spacing: 2px;
+}
+.gad{
+    width:940px;
+    float:left;
+    margin-right: 40px;
+    margin-left:40px ;
+    padding: 35px;
+    border: 5px;
+    width: 240px;
+    
+}
+.footer__icons{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+.footer__img{
+    width: 50px;
+    margin: 10px;
+}
+.footer__block{
+    text-transform: uppercase;
+    display: inline-block;
+    width: 335px;
+}
+.pink{
+    color: pink;
+}
+.irina{
+ text-align: center ;
+ display: inline-block;
+margin-right: 50px;
+padding: 90px;
+
+}
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sansserif{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.monospace{
+    font-family: Lucida 'Courier New', Courier, monospace;
+}
